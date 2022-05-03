@@ -1,0 +1,214 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  background-color: #e20000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px;
+  color: #fff;
+}
+
+@media screen and (max-width: 760px) {
+  header {
+    padding: 2px 20px;
+  }
+}
+
+header .logo {
+  padding-top: 2px;
+}
+
+@media screen and (max-width: 760px) {
+  header .logo {
+    display: none;
+  }
+}
+
+header .logo img {
+  height: 37px;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 260px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-right: 30px;
+}
+
+@media screen and (max-width: 760px) {
+  header nav {
+    width: 100%;
+    padding-right: 0;
+  }
+}
+
+header nav div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 760px) {
+  header nav div.login p {
+    display: none;
+  }
+}
+
+header nav div.login img {
+  height: 25px;
+}
+
+header nav div.logo {
+  display: none;
+}
+
+@media screen and (max-width: 760px) {
+  header nav div.logo {
+    display: block;
+  }
+}
+
+header nav div.logo img {
+  height: 25px;
+}
+
+header nav div.cart p {
+  padding: 10px;
+}
+
+header nav div.cart img {
+  height: 17px;
+}
+
+main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 500px 1fr;
+      grid-template-columns: 500px 1fr;
+}
+
+main .sidepanel {
+  padding: 20px;
+}
+
+main .sidepanel .pinkbox {
+  line-height: 1.5em;
+  font-weight: bold;
+  padding: 20px;
+  background-color: #fcdee7;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 5fr;
+      grid-template-columns: 1fr 5fr;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+}
+
+main .sidepanel .pinkbox a {
+  text-decoration: none;
+}
+
+main .sidepanel .pinkbox img {
+  width: 100%;
+}
+
+main .sidepanel > p {
+  padding: 20px 0;
+}
+
+main .sidepanel .pickupordelivery {
+  padding: 10px;
+  border: 2px solid #e20000;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+main .sidepanel .pickupordelivery button {
+  padding: 15px;
+  background: none;
+  border: none;
+}
+
+main .sidepanel .pickupordelivery button:first-child {
+  background-color: #e20000;
+  color: #fff;
+}
+
+main .sidepanel .search {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 1fr;
+      grid-template-columns: 2fr 1fr;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+  padding: 10px;
+}
+
+main .sidepanel .search input {
+  padding: 10px;
+}
+
+main .sidepanel > a {
+  display: block;
+  padding: 20px;
+}
+
+main .map iframe {
+  width: 100%;
+  height: calc(100vh - 90px);
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 40px;
+}
+
+footer ul {
+  padding: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  text-align: center;
+  line-height: 1.8em;
+  font-weight: bold;
+}
+
+footer ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+footer p {
+  text-align: center;
+}
+/*# sourceMappingURL=styles.css.map */
